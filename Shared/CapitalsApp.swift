@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct CapitalsApp: App {
+    @StateObject private var capital_class = capital_Class()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(capital_class)
         }
     }
 }

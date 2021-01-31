@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7004B0725C4223600F3B8F5 /* CapitalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7004B0625C4223600F3B8F5 /* CapitalInfo.swift */; };
+		B7004B0825C4223600F3B8F5 /* CapitalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7004B0625C4223600F3B8F5 /* CapitalInfo.swift */; };
+		B7004B0C25C5109600F3B8F5 /* Capitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7004B0B25C5109600F3B8F5 /* Capitals.swift */; };
+		B7004B0D25C5109600F3B8F5 /* Capitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7004B0B25C5109600F3B8F5 /* Capitals.swift */; };
+		B7004B1925C56ECB00F3B8F5 /* SwiftUIListSeparator in Frameworks */ = {isa = PBXBuildFile; productRef = B7004B1825C56ECB00F3B8F5 /* SwiftUIListSeparator */; };
+		B7004B1D25C56F4300F3B8F5 /* List+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7004B1C25C56F4300F3B8F5 /* List+Separator.swift */; };
+		B7004B1E25C56F4300F3B8F5 /* List+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7004B1C25C56F4300F3B8F5 /* List+Separator.swift */; };
 		B7756AF525C3E13600CA4A5E /* CapitalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7756AE225C3E13500CA4A5E /* CapitalsApp.swift */; };
 		B7756AF625C3E13600CA4A5E /* CapitalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7756AE225C3E13500CA4A5E /* CapitalsApp.swift */; };
 		B7756AF725C3E13600CA4A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7756AE325C3E13500CA4A5E /* ContentView.swift */; };
@@ -16,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7004B0625C4223600F3B8F5 /* CapitalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalInfo.swift; sourceTree = "<group>"; };
+		B7004B0B25C5109600F3B8F5 /* Capitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capitals.swift; sourceTree = "<group>"; };
+		B7004B1C25C56F4300F3B8F5 /* List+Separator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "List+Separator.swift"; sourceTree = "<group>"; };
 		B7756AE225C3E13500CA4A5E /* CapitalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalsApp.swift; sourceTree = "<group>"; };
 		B7756AE325C3E13500CA4A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7756AE425C3E13600CA4A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7004B1925C56ECB00F3B8F5 /* SwiftUIListSeparator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,8 +68,11 @@
 		B7756AE125C3E13500CA4A5E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B7004B1C25C56F4300F3B8F5 /* List+Separator.swift */,
 				B7756AE225C3E13500CA4A5E /* CapitalsApp.swift */,
 				B7756AE325C3E13500CA4A5E /* ContentView.swift */,
+				B7004B0B25C5109600F3B8F5 /* Capitals.swift */,
+				B7004B0625C4223600F3B8F5 /* CapitalInfo.swift */,
 				B7756AE425C3E13600CA4A5E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -106,6 +120,9 @@
 			dependencies = (
 			);
 			name = "Capitals (iOS)";
+			packageProductDependencies = (
+				B7004B1825C56ECB00F3B8F5 /* SwiftUIListSeparator */,
+			);
 			productName = "Capitals (iOS)";
 			productReference = B7756AE925C3E13600CA4A5E /* Capitals.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +170,9 @@
 				Base,
 			);
 			mainGroup = B7756ADC25C3E13500CA4A5E;
+			packageReferences = (
+				B7004B1725C56ECB00F3B8F5 /* XCRemoteSwiftPackageReference "SwiftUIListSeparator" */,
+			);
 			productRefGroup = B7756AEA25C3E13600CA4A5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,7 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7004B1D25C56F4300F3B8F5 /* List+Separator.swift in Sources */,
+				B7004B0725C4223600F3B8F5 /* CapitalInfo.swift in Sources */,
 				B7756AF725C3E13600CA4A5E /* ContentView.swift in Sources */,
+				B7004B0C25C5109600F3B8F5 /* Capitals.swift in Sources */,
 				B7756AF525C3E13600CA4A5E /* CapitalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7004B1E25C56F4300F3B8F5 /* List+Separator.swift in Sources */,
+				B7004B0825C4223600F3B8F5 /* CapitalInfo.swift in Sources */,
 				B7756AF825C3E13600CA4A5E /* ContentView.swift in Sources */,
+				B7004B0D25C5109600F3B8F5 /* Capitals.swift in Sources */,
 				B7756AF625C3E13600CA4A5E /* CapitalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7004B1725C56ECB00F3B8F5 /* XCRemoteSwiftPackageReference "SwiftUIListSeparator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SchmidtyApps/SwiftUIListSeparator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7004B1825C56ECB00F3B8F5 /* SwiftUIListSeparator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7004B1725C56ECB00F3B8F5 /* XCRemoteSwiftPackageReference "SwiftUIListSeparator" */;
+			productName = SwiftUIListSeparator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7756ADD25C3E13500CA4A5E /* Project object */;
 }
