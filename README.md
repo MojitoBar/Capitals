@@ -47,3 +47,5 @@ struct FavoriteButton: View {
     }
 }
 ```
+---
+* Reference by [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui/handling-user-input)
